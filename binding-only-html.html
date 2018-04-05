@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Binding Only HTML</title>
+  </head>
+  <body>
+    <input type="text" id="message" oninput="demo.innerHTML=this.value;">
+    <p id="demo" contenteditable oninput="message.value=this.innerHTML;"></p>
+  </body>
+</html>

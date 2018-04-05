@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Binding with jQuery</title>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script>
+      $(()=>{
+        let message = $('#message');
+        let demo = $('#demo');
+
+        message.keyup(function(){
+          demo.text(message.val());
+        })
+      })
+    </script>
+  </head>
+  <body>
+    <input type="text" id="message">
+    <p id="demo"></p>
+  </body>
+</html>
