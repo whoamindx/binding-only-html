@@ -75,7 +75,7 @@ Simple is not it? But will you even upload 165 KB of JavaScript just to do this?
 </html>
 ```
 
-Enjoyed it? You can still transform into a "two-way" binding simply with the addition of 2 attributes and a fucking ID..
+Enjoyed it? You can still transform into a "two-way" binding simply with the addition of 2 attributes and a fucking ID.
 
 ``` html
 <input type="text" id="message" oninput="demo.innerHTML=this.value;">
