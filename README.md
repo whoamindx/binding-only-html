@@ -24,7 +24,7 @@ First, see a comparison with the famous jQuery and AngularJS:
         let message = $('#message');
         let demo = $('#demo');
 
-        message.keyup(function(){
+        message.keyup(() => {
           demo.text(message.val());
         })
       })
