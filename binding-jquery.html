@@ -10,7 +10,7 @@
         let message = $('#message');
         let demo = $('#demo');
 
-        message.keyup(function(){
+        message.keyup(() => {
           demo.text(message.val());
         })
       })
