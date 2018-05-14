@@ -24,7 +24,7 @@ Primeiro, veja uma comparação com o nosso famoso jQuery (ou JoãoQuery para os
         let message = $('#message');
         let demo = $('#demo');
 
-        message.keyup(()=>{
+        message.keyup(() => {
           demo.text(message.val());
         })
       })
