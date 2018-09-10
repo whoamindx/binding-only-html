@@ -7,7 +7,7 @@
 Do you think you need a 1 TB framework to do a simple binding? Keep reading and I'll show you how to do this with just two lines of HTML.
 THAT SAME, 2 LINES OF FUCKING HTML.
 
-First, see a comparison with the famous jQuery and AngularJS:
+First, see a comparison with the famous jQuery(or John Query for the most intimate) and AngularJS:
 
 ## With jQuery
 
