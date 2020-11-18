@@ -6,12 +6,12 @@
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script>
-      $(()=>{
-        let message = $('#message');
-        let demo = $('#demo');
+      $(() => {
+        const message = $('#message')
+        const demo = $('#demo')
 
         message.keyup(() => {
-          demo.text(message.val());
+          demo.text(message.val())
         })
       })
     </script>
